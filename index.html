@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="hangman.js"></script>
+        <link rel="stylesheet" href="hangman.css"/>
+        <title>Hangman Game</title>
+        <h>Let's Play Hangman</h>
+
+    </head>
+
+<body onload="populateGuess()">
+<div id="instructions"></div>
+<select id = "letters"></select>
+
+
+<button id="resetGame" onclick="startGame()">Start Game</button>
+<button id="guessButton" onclick="guessLetter()">Guess!</button>
+
+</body>
+
+<div id="guesses"></div>
+<div id="guessedLetters"></div>
+<div id="wrongLetters"></div>
+<div id="displayedWord"></div>
+<div id="lose"></div>
+<div id ="win"></div>
+<div id ="winPic"></div>
+<div id = "losePic"></div>
+
+
+</html>

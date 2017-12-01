@@ -1,0 +1,201 @@
+/* style all elements in the <body> */
+body {
+    font-family: "Lucida Sans Typewriter" ;
+    vertical-align: top;
+    background-image:url(img/snow.jpeg);
+    /*depending on which computer, change*/
+}
+
+/* style all the buttons in a page */
+/*button {*/
+/*width: 50%;*/
+/*color: black;*/
+
+/*}*/
+
+h{
+    position: absolute;
+    right: 40%;
+    width: 300px;
+    border: 3px solid darkgreen;
+    padding: 10px;
+    text-align: center;
+    color: darkred;
+
+
+}
+
+#instructions{
+    position: absolute;
+    top: 50%;
+    right: 44%;
+    width: 200px;
+    height: 65px;
+    border: 3px solid darkgreen;
+    padding: 10px;
+    text-align: center;
+    color: darkred;
+}
+
+#letters{
+    width: 100px;
+    height: 30px;
+    background-color: aliceblue;
+    font-size: 12px;
+    transform: translate(0px, 16px);
+
+}
+/* style the element with the id “myId” */
+#guessButton{
+    width: 100px;
+    height: 40px;
+    background-color:darkgreen;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 22%;
+    right: 39.5%;
+
+}
+
+#resetGame{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    top: 14%;
+    right: 49%;
+}
+
+#difficulty{
+    position: absolute;
+    top: 10.6%;
+    right: 40%;
+    background-color: white;
+    width: 100px;
+    height: 41px;
+    color: darkgreen;
+}
+
+#letters{
+    position: absolute;
+    top:20%;
+    right: 58.7%;
+    background-color: lightcoral;
+    width: 100px;
+    height: 41px;
+    color: white;
+}
+
+
+/*style all elements with the class “fontLarge” */
+.fontLarge{
+    font-size: 14px;
+}
+
+/* style all p elements with the class “center” */
+p.center {
+    text-align: center;
+    color: red;
+}
+
+/* style all h1, h2 and p elements */
+h1, h2, p {
+    text-align: right;
+    text-weight: bold;
+}
+
+#h{
+    font-family: "Lucida Sans Typewriter";
+    color: darkred;
+    padding-left: 50px;
+
+}
+
+
+#displayedWord{
+    position: absolute;
+    top: 37%;
+    right: 44%;
+    width: 200px;
+    height: 50px;
+    border: 3px solid darkgreen;
+    padding: 10px;
+    text-align: center;
+    color: lightcoral;
+}
+
+
+
+#wrongLetters{
+    position: absolute;
+    top: 70%;
+    right: 60%;
+    width: 150px;
+    height: 50px;
+    border: 3px dotted red;
+    padding: 10px;
+    text-align: center;
+    color: lightcoral;
+}
+
+#guesses{
+    position: absolute;
+    top: 70%;
+    right: 32%;
+    width: 150px;
+    height: 50px;
+    border: 3px dotted red;
+    padding: 10px;
+    text-align: center;
+    color: lightcoral;
+}
+
+#lose{
+    transform: translate(550px, 240px);
+    color:red;
+    background-color: #E3DFDC;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    right: 60%;
+
+}
+
+#win{
+    /*transform: translate(550px, 234px);*/
+    transform: translate(550px, 240px);
+    color:red;
+    background-color: #E3DFDC;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    right: 60%;
+}
+
+#winPic{
+    transform: translate(800px, 210px);
+    /*height: 200px;*/
+    width: 100px;
+}
+
+#losePic{
+    transform: translate(900px, 190px);
+    /*transform: translate(600px, 100px);*/
+    /*height: 50px;*/
+    width: 100px;
+}
