@@ -6,7 +6,7 @@ var guessedLetters = [];
 var wrongLetters = [];
 
 
-
+//This function will form the drop down and eliminate the last guessed letter + print instructions
 function populateGuess() {
     document.getElementById("instructions").innerHTML = "Please select " +
         "'Start Game' to start or reset the game.";
@@ -25,7 +25,7 @@ function populateGuess() {
 }
 
 
-// Reset the board, clear out any traces of the last round from guessedLetters
+// Reset the board, clear out any traces of the last round from guessedLetters and wrongLetters and re-display the buttons.
 // Choose a word - this code will grab  a random element from your words array for you:
 function startGame(){
     document.getElementById("guessButton").style.display = "block";
